@@ -1,0 +1,71 @@
+* {
+    font-family: fantasy;
+    background-color: lightyellow;
+}
+
+#paragraphe-bienvenue{
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    background-color: rgb(247, 247, 236);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+
+#experiences, #competences {
+    list-style-image: url('./check-mark.svg');
+}
+
+#competences {
+    columns: 3;
+}
+
+.competence_category{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#links li{
+    /* list-style-type: none; */
+    display: inline;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+#element-de-type-inline{
+    display: block;
+}
+
+#element-de-type-block{
+    display: inline;
+}
+
+#links li img{
+    margin-right: 5px;
+}
+
+
+ul{
+    /* list-style-image: none; */
+}
+
+body{
+    padding: 20px;
+}
+
+.header{
+    text-align: center;
+}
+
+.header img{
+    border-radius: 50%;
+    width: 150px;
+    bord
+}
+
+.section{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
